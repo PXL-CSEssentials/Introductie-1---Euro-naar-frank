@@ -10,6 +10,4 @@ Er is een opdrachtknop "BerekenenButton" en een opdrachtknop "WissenButton".
 
 Met de knop Wissen worden de tekstvakken leeg gemaakt.
 
-![Afbeelding met tekst, schermopname, scherm, software Automatisch
-gegenereerde
-beschrijving](./media/image1.png)
+![screenshot](./media/image1.png)
