@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EurToBef"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Valuta converter" Height="450" Width="800">
+    <Canvas>
+        <Label Content="Bedrag in EUR:" Canvas.Left="134" Canvas.Top="125" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Bedrag in BEF:" Canvas.Left="134" Canvas.Top="200" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox x:Name="eurTextBox" Canvas.Left="280" TextWrapping="Wrap" Canvas.Top="125" Width="120" TextAlignment="Right" Height="25" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="befTextBox" Canvas.Left="280" TextWrapping="Wrap" Canvas.Top="200" Width="120" TextAlignment="Right" Height="25" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top" IsEnabled="False"/>
+        <Button x:Name="calculateButton" Content="Berekenen" Canvas.Left="454" Canvas.Top="125" Width="100" Height="25"  Click="calculateButton_Click" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+        <Button x:Name="clearButton" Content="Wissen" Canvas.Left="454" Canvas.Top="200" Width="100" Height="25"  Click="clearButton_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-    </Grid>
+    </Canvas>
 </Window>

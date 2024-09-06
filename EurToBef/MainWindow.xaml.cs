@@ -20,4 +20,24 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    private void calculateButton_Click(object sender, RoutedEventArgs e)
+    {
+        const double exchangeRate = 40.3399;
+
+        double eur = double.Parse(eurTextBox.Text);
+        double bef = eur * exchangeRate;
+
+        //befTextBox.Text = bef.ToString();
+        befTextBox.Text = bef.ToString("N2");
+        //befTextBox.Text = $"{bef:N2}";
+    }
+
+    private void clearButton_Click(object sender, RoutedEventArgs e)
+    {
+        eurTextBox.Clear();     // eurTextBox.Text = String.Empty;
+        befTextBox.Clear();     // befTextBox.Text = String.Empty;
+
+        eurTextBox.Focus();
+    }
 }
