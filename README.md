@@ -1,14 +1,13 @@
 # Introductie 1: Euro omzetten naar Belgische frank
-
 Deze oefening dient om een bedrag in euro om te zetten naar Belgische
 frank.
 
 ## Layout
 
-Er is een tekstvak "EurTextBox" om een bedrag in te geven en een tekstvak
-"BefTextBox" om het resultaat te tonen.
+Er is een tekstvak "eurTextBox" om een bedrag in te geven en een tekstvak
+"befTextBox" om het resultaat te tonen.
 
-Er is een opdrachtknop "ConvertButton" en een opdrachtknop "ClearButton".
+Er is een opdrachtknop "convertButton" en een opdrachtknop "clearButton".
 
 ![screenshot](./media/image1.png)
 
