@@ -4,10 +4,10 @@ frank.
 
 ## Layout
 
-Er is een tekstvak "eurTextBox" om een bedrag in te geven en een tekstvak
-"befTextBox" om het resultaat te tonen.
+Er is een tekstvak *eurTextBox* om een bedrag in te geven en een tekstvak
+*befTextBox* om het resultaat te tonen.
 
-Er is een opdrachtknop "convertButton" en een opdrachtknop "clearButton".
+Er is een opdrachtknop *convertButton* en een opdrachtknop *clearButton*.
 
 ![screenshot](./media/image1.png)
 
