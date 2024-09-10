@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EurToBef;
+namespace Introductie_1___Euro_naar_frank;
 
 /// <summary>
 /// Interaction logic for MainWindow.xaml
