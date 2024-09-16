@@ -16,4 +16,4 @@ Er is een opdrachtknop *convertButton* en een opdrachtknop *clearButton*.
 - Met de knop Wissen worden de tekstvakken leeg gemaakt.
 
 ## Tips
-- gebruik een constante *exchangeRate* met de waarde 40.3399 die de koers bepaalt
+- gebruik een constante *ExchangeRate* met de waarde 40.3399 die de koers bepaalt
