@@ -23,10 +23,10 @@ public partial class MainWindow : Window
 
     private void calculateButton_Click(object sender, RoutedEventArgs e)
     {
-        const double exchangeRate = 40.3399;
+        const double ExchangeRate = 40.3399;
 
         double eur = double.Parse(eurTextBox.Text);
-        double bef = eur * exchangeRate;
+        double bef = eur * ExchangeRate;
 
         //befTextBox.Text = bef.ToString();
         befTextBox.Text = bef.ToString("N2");
