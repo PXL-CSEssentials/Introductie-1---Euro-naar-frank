@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EurToBef;
+namespace Introductie_1___Euro_naar_frank;
 
 /// <summary>
 /// Interaction logic for MainWindow.xaml
@@ -23,15 +23,13 @@ public partial class MainWindow : Window
 
     private void calculateButton_Click(object sender, RoutedEventArgs e)
     {
-        const double exchangeRate = 40.3399;
+        const double ExchangeRate = 40.3399;
 
         //Lees de waarde uit eurTextBox, converteer naar kommagetal (double) en bewaar in variabele eur
         //string input = eurTextBox.Text;
         //double eur = double.Parse(input);
         double eur = double.Parse(eurTextBox.Text);
-
-        //Bereken de waarde in BEF en bewaar in variabele bef
-        double bef = eur * exchangeRate;
+        double bef = eur * ExchangeRate;
 
         //Toon de waarde van variabele bef in befTextBox
         //befTextBox.Text = bef.ToString();
