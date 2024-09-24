@@ -25,16 +25,22 @@ public partial class MainWindow : Window
     {
         const double exchangeRate = 40.3399;
 
+        //Lees de waarde uit eurTextBox, converteer naar kommagetal (double) en bewaar in variabele eur
         double eur = double.Parse(eurTextBox.Text);
+
+        //Bereken de waarde in BEF en bewaar in variabele bef
         double bef = eur * exchangeRate;
 
+        //Toon de waarde van variabele bef in befTextBox
         //befTextBox.Text = bef.ToString();
-        befTextBox.Text = bef.ToString("N2");
+        befTextBox.Text = bef.ToString("N2"); //N2: 2 decimalen
         //befTextBox.Text = $"{bef:N2}";
     }
 
     private void clearButton_Click(object sender, RoutedEventArgs e)
     {
+        
+
         eurTextBox.Clear();     // eurTextBox.Text = String.Empty;
         befTextBox.Clear();     // befTextBox.Text = String.Empty;
 
